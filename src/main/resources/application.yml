@@ -1,0 +1,9 @@
+server:
+  port: 6060
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/db_ahpsys?serverTimezone=GMT%2b8
+    username: root
+    password: zc
